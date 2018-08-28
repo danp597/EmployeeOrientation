@@ -50,6 +50,7 @@
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\OrientationStageRendering.js" />
     <Content Include="Site Columns\Division\Elements.xml" />
     <Content Include="Site Columns\OrientationStage\Elements.xml" />
     <Content Include="Lists\WorkflowHistoryList\Elements.xml" />

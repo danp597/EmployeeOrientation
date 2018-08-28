@@ -43,10 +43,14 @@
 
         <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="HomePage1" Title="loc:full" />
 
-        <p><asp:Hyperlink runat="server" NavigateUrl="JavaScript:window.location - _spPageContectInfo.webAbsoluteUrl + '/Pages/Help.aspx';" 
+        <p><asp:Hyperlink runat="server" NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Pages/Help.aspx';" 
             Text="Get help for the Employee Orientatoin add-in" />
         </p>
 
+    </p>
+
+    <p>
+        <asp:HyperLink runat="server" NavigateUrl="Javascript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Lists/NewEmployeesInSeattle/AllItems.aspx';" Text="List View Page for New Employees in Seattle" />
     </p>
 
 </asp:Content>

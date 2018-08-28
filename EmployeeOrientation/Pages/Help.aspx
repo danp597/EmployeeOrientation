@@ -15,11 +15,10 @@
 </asp:Content>
 
 <asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
-   <%-- <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="full" Title="loc:full" /--%>>
+   <%-- <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="full" Title="loc:full" /--%>
 
     <h3>Having a problem with the add-in?</h3>
     <p>Call the helpline for Fabrikam Add-ins:</p>
     <p>1-555-555-5555</p>
-
 
 </asp:Content>

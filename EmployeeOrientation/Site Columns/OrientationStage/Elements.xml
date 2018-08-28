@@ -7,7 +7,8 @@
        DisplayName="Orientation Stage"
        Type="Choice"
        Required="TRUE"
-       Group="Employee Orientation">
+       Group="Employee Orientation"
+       JSLink ="~site/Scripts/OrientationStageRendering.js">
 
     <CHOICES>
       <CHOICE>Not Started</CHOICE>
