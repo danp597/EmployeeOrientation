@@ -44,9 +44,14 @@
   <ItemGroup>
     <Content Include="Content Types\NewEmployee\Elements.xml" />
     <Content Include="Lists\NewEmployeeOrientation\Elements.xml" />
-    <Content Include="Lists\NewEmployeeOrientation\NewEmployeesInSeattle\Elements.xml" />
+    <Content Include="Lists\NewEmployeeOrientation\NewEmployeesInSeattle\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Lists\NewEmployeeOrientation\Schema.xml" />
     <Content Include="Pages\Help.aspx" />
+    <Content Include="RunOrientationAdd-in\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -70,6 +75,9 @@
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="RunOrientationAdd-in\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4f892d90-60f7-474b-ad4b-505cf8adb7df}</SharePointProjectItemId>
+    </None>
     <None Include="Site Columns\Division\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{20a41da3-89cc-45bd-9a7b-dfd93d6e8839}</SharePointProjectItemId>
     </None>
@@ -92,7 +100,7 @@
       <SharePointProjectItemId>{7977d30c-3579-4870-8ff5-d6899fe86f85}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\Add-in.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">

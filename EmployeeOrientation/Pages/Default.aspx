@@ -18,7 +18,7 @@
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
     <!-- Add your JavaScript to the following file -->
-    <script type="text/javascript" src="../Scripts/App.js"></script>
+    <script type="text/javascript" src="../Scripts/Add-in.js"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -42,6 +42,10 @@
             Text="New Employees in Seattle" />--%>
 
         <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="HomePage1" Title="loc:full" />
+
+        <p><asp:Button runat="server" OnClientClick="return purgeCompletedItems()" ID="purgecompleteditemsbutton" Text="Purge Completed items" /></p>
+
+        <p><asp:Button runat="server" OnClientClick="return ensureOrientationScheduling()" ID="ensureorientationschedulingbutton" Text="Ensure all items are on the Calendar" /></p>
 
         <p><asp:Hyperlink runat="server" NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Pages/Help.aspx';" 
             Text="Get help for the Employee Orientatoin add-in" />

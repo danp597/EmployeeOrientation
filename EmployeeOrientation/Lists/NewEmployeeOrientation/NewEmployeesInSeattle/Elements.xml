@@ -6,7 +6,7 @@
         <Row>
           <Field Name="Title">Tom Higginbotham</Field>
           <Field Name="Division">Manufacturing</Field>
-          <Field Name="OrientationStage">Tour of building</Field>
+          <Field Name="OrientationStage">Completed</Field>
         </Row>
         <Row>
           <Field Name="Title">Satomi Hayakawa</Field>
