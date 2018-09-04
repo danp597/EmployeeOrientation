@@ -29,21 +29,10 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <%--<div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
-    </div>--%>
-
     <p>
-        <%--<asp:HyperLink runat="server" 
-            NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Lists/NewEmployeesInSeattle/AllItems.aspx';" 
-            Text="New Employees in Seattle" />--%>
-
         <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="HomePage1" Title="loc:full" />
 
-        <p><asp:Button runat="server" OnClientClick="return purgeCompletedItems()" ID="purgecompleteditemsbutton" Text="Purge Completed items" /></p>
+        <p><asp:Button runat="server" OnClientClick="return purgeCompletedItems()"  ID="purgecompleteditemsbutton" Text="Purge Completed Items" /></p>
 
         <p><asp:Button runat="server" OnClientClick="return ensureOrientationScheduling()" ID="ensureorientationschedulingbutton" Text="Ensure all items are on the Calendar" /></p>
 

@@ -95,7 +95,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\jquery.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7977d30c-3579-4870-8ff5-d6899fe86f85}</SharePointProjectItemId>
     </None>
